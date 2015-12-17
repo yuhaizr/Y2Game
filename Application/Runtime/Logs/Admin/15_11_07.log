@@ -1,0 +1,99 @@
+[2015-11-07 09:40:44] 127.0.0.1 /fundcrm/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-07 09:40:58] 127.0.0.1 /fundcrm/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(101)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载控制器:Home
+
+[2015-11-07 09:41:14] 127.0.0.1 /fundcrm/index.php/TRQGL/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(101)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载控制器:TRQGL
+
+[2015-11-07 09:41:33] 127.0.0.1 /fundcrm/index.php/TRQGL/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(101)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载控制器:TRQGL
+
+[2015-11-07 09:41:54] 127.0.0.1 /fundcrm/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-07 09:42:13] 127.0.0.1 /fundcrm/index.php/Serm/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(101)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载控制器:Serm
+

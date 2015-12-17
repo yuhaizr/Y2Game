@@ -1,0 +1,1586 @@
+[2015-11-08 10:39:09] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:39:19] 127.0.0.1 /fundcrm/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:39:22] 127.0.0.1 /fundcrm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:39:44] 127.0.0.1 /fundcrm/index.php/Home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:39:46] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:39:53] 127.0.0.1 /fundcrm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:39:53] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:39:57] 127.0.0.1 /fundcrm/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:39:59] 127.0.0.1 /fundcrm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:40:01] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:53:13] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:55:28] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:56:19] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 10:57:26] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 10:59:06] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(42)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't_role.id' in 'field list'
+
+[2015-11-08 10:59:15] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2015-11-08 11:00:55] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:00:55] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:01:00] 127.0.0.1 /fundcrm/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:01:02] 127.0.0.1 /fundcrm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:06:44] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2015-11-08 11:08:26] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:10:57] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template\TagLib.class.php(82)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(449)  parseXmlAttr  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(426)  parseXmlTag  
+File:()  Think\{closure}  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(427)  preg_replace_callback  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(181)  parseTagLib  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(126)  parse  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(113)  compiler  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(76)  loadTemplate  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php(32)  fetch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Hook.class.php(119)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Hook.class.php(89)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\View.class.php(126)  listen  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\View.class.php(72)  fetch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Controller.class.php(56)  display  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(40)  display  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: XML标签语法错误 : name="userinfolist" item="value" key=key
+
+[2015-11-08 11:11:18] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template\TagLib.class.php(82)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(449)  parseXmlAttr  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(426)  parseXmlTag  
+File:()  Think\{closure}  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(427)  preg_replace_callback  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(181)  parseTagLib  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(126)  parse  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(113)  compiler  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Template.class.php(76)  loadTemplate  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php(32)  fetch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Hook.class.php(119)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Hook.class.php(89)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\View.class.php(126)  listen  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\View.class.php(72)  fetch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Controller.class.php(56)  display  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(40)  display  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: XML标签语法错误 : name="userinfolist" item="value" key=key
+
+[2015-11-08 11:11:32] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:11:57] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:12:07] 127.0.0.1 /fundcrm/index.php/Home/User/useredit?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2015-11-08 11:12:50] 127.0.0.1 /fundcrm/index.php/Home/User/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t_role_user.role_id = 请选择角色 )' at line 1
+
+[2015-11-08 11:14:11] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:14:20] 127.0.0.1 /fundcrm/index.php/Home/User/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t_role_user.role_id = 请选择角色 )' at line 1
+
+[2015-11-08 11:14:51] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:14:55] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t_role_user.role_id = 请选择角色 )' at line 1
+
+[2015-11-08 11:15:18] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:16:09] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:16:11] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t_role_user.role_id = 请选择角色 )' at line 1
+
+[2015-11-08 11:16:36] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:16:39] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t_role_user.role_id = 请选择角色 )' at line 1
+
+[2015-11-08 11:17:29] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:18:31] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:18:33] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:18:36] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:18:37] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:18:41] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND t_role_user.role_id = 1 )' at line 1
+
+[2015-11-08 11:19:08] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:20:45] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:22:49] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:22:52] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:23:01] 127.0.0.1 /fundcrm/index.php/Home/Role/roleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+
+[2015-11-08 11:23:06] 127.0.0.1 /fundcrm/index.php/Home/Role/roleUserList?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:23:09] 127.0.0.1 /fundcrm/index.php/Home/Role/useraddrole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:23:10] 127.0.0.1 /fundcrm/index.php/Home/Role/roleUserList/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:23:13] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:23:16] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:23:17] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:24:05] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:24:07] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:24:46] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:24:50] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:24:51] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:26:09] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2015-11-08 11:26:14] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2015-11-08 11:27:15] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:27:56] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:28:03] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:28:06] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:28:40] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2015-11-08 11:28:49] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:28:54] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:29:52] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:29:57] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:30:03] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:30:04] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:30:45] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:30:48] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:30:51] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:30:54] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:34:58] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(245)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(37)  __call  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(37)  fix_user_list  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: Think\Model:fix_user_list方法不存在！
+
+[2015-11-08 11:35:09] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:35:14] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:35:16] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:35:20] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:35:22] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:35:24] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:39:34] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:39:36] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:40:42] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:44:45] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:44:48] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:44:50] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:44:51] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:45:01] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:45:33] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:45:42] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:46:06] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[2015-11-08 11:46:13] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[2015-11-08 11:47:32] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:50:20] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:50:23] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:50:29] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:50:30] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:50:33] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:51:01] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:51:09] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(56)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(37)  fix_user_list  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role_id' in 'where clause'
+
+[2015-11-08 11:51:18] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:51:21] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(56)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(37)  fix_user_list  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role_id' in 'where clause'
+
+[2015-11-08 11:52:06] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:52:09] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:52:18] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(56)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(37)  fix_user_list  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role_id' in 'where clause'
+
+[2015-11-08 11:53:28] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(56)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(37)  fix_user_list  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role_id' in 'where clause'
+
+[2015-11-08 11:53:58] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2015-11-08 11:54:02] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:54:05] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:54:08] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:54:09] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:54:12] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:54:44] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 11:54:54] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 11:55:01] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:00:53] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2015-11-08 12:00:56] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:01:00] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:01:03] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:01:05] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:01:37] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:01:39] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:01:42] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:01:49] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:01:50] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:01:54] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:01:58] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:02:06] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:02:08] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:02:47] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:02:48] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:08] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:14] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:16] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:03:18] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:28] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:34] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:35] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:03:39] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:04:22] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:04:27] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND nickname like '%nickname%'  AND t_role_user.role_id = 1 )' at line 1
+
+[2015-11-08 12:05:06] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:05:10] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\UserModel.class.php(28)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\UserController.class.php(20)  get_user_list  
+File:()  index  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND nickname like '%123%'  AND t_role_user.role_id = 1 )' at line 1
+
+[2015-11-08 12:05:29] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:06:17] 127.0.0.1 /fundcrm/index.php/Home/User/index/role_id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:06:22] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:06:29] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:06:30] 127.0.0.1 /fundcrm/index.php/Home/User/index/nickname/%E7%AE%A1/role_id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:06:34] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(1378)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\LogModel.class.php(143)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\LogModel.class.php(125)  getModuleActionFunction  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\LogModel.class.php(82)  fixLogList  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\LogController.class.php(33)  logList  
+File:()  logList  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND level = 3' at line 3
+
+[2015-11-08 12:08:32] 127.0.0.1 /fundcrm/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:13:17] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:13:27] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/startTime/2000-01-01+00%3A00%3A00/endTime/2015-11-08+12%3A13%3A17/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:16:00] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/startTime/2000-01-01+00%3A00%3A00/endTime/2015-11-08+12%3A13%3A17/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:16:50] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:16:55] 127.0.0.1 /fundcrm/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:16:57] 127.0.0.1 /fundcrm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:17:00] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:24:11] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:31:36] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Model.class.php(583)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Model\LogModel.class.php(45)  select  
+File:F:\zendserver\Apache2\htdocs\fundcrm\Application\Home\Controller\LogController.class.php(25)  logList  
+File:()  logList  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND ctime < '2015-11-08 12:34:36' AND ctime >= '2015-11-08 00:00:00'  )' at line 1
+
+[2015-11-08 12:32:01] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:32:04] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:34:31] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:34:34] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:34:43] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:34:48] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:36:02] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:36:09] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:36:12] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:36:15] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:36:45] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2015-11-08 12:36:48] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:36:50] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:38:28] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:38:31] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:38:35] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:38:37] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:38:38] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:39:17] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:39:49] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:40:13] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:40:20] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:40:21] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:40:52] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:40:54] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:41:00] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08+00%3A00%3A00__2015-11-08+12%3A43%3A54/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:43:31] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08+00%3A00%3A00__2015-11-08+12%3A43%3A54/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:32] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:43:36] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:43:38] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:40] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:41] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:46] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=%E7%AE%A1&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:48] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchNickname/%E7%AE%A1/searchTime/2015-11-08__2015-11-08/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:43:49] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchNickname/%E7%AE%A1/searchTime/2015-11-08__2015-11-08/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:50] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:53] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:55] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:43:57] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:44:04] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:44:46] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:44:54] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:45:02] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/44.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:45:10] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:45:15] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:45:17] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:45:59] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime/2015-11-08__2015-11-08/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:46:05] 127.0.0.1 /fundcrm/index.php/Home/Log/logList?searchNickname=&type=searchLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:46:08] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:46:12] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:46:29] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:46:34] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[2015-11-08 12:47:00] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 12:47:03] 127.0.0.1 /fundcrm/index.php/Home/Log/logList/searchTime//p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2015-11-08 14:15:22] 127.0.0.1 /fundcrm/index.php/Home/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 14:15:45] 127.0.0.1 /fundcrm/index.php/Home/Log/logList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 22:20:50] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+
+[2015-11-08 23:08:30] 127.0.0.1 /fundcrm/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+
+[2015-11-08 23:08:37] 127.0.0.1 /fundcrm/index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[2015-11-08 23:08:40] 127.0.0.1 /fundcrm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 23:08:44] 127.0.0.1 /fundcrm/index.php/Home/Role/roleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2015-11-08 23:08:47] 127.0.0.1 /fundcrm/index.php/Home/Role/roleAuth?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

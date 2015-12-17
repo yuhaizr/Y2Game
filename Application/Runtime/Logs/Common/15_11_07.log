@@ -1,0 +1,39 @@
+[2015-11-07 17:37:25] 127.0.0.1 /fundcrm/index.php/HTRQGL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载模块:HTRQGL
+
+[2015-11-07 17:38:51] 127.0.0.1 /fundcrm/index.php/HTRQGL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载模块:HTRQGL
+
+[2015-11-07 17:39:06] 127.0.0.1 /fundcrm/index.php/HTRQGL/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:F:\zendserver\Apache2\htdocs\fundcrm\ThinkPHP\ThinkPHP.php(97)  start  
+File:F:\zendserver\Apache2\htdocs\fundcrm\index.php(30)  require  
+ERR: 无法加载模块:HTRQGL
+

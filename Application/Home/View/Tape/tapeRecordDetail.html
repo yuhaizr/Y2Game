@@ -1,0 +1,171 @@
+<extend name="Public:base"/>
+
+<block name="header">
+</block>
+
+<block name="body">
+
+<div class="row">
+	<div class="col-xs-12 col-md-12">
+	    	<div class="widget">
+	       	<div class="widget-header ">
+	           	<span class="widget-caption">电话情况总览</span>
+	               <div class="widget-buttons">
+	                    <a href="#" data-toggle="maximize">
+	                        <i class="fa fa-expand"></i>
+	                    </a>
+	                    <a href="#" data-toggle="collapse">
+	                        <i class="fa fa-minus"></i>
+	                    </a>
+	                    <a href="#" data-toggle="dispose">
+	                        <i class="fa fa-times"></i>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="widget-body">
+	                <div class="table-toolbar row">
+						<div class = "col-sm-4">
+			                 <div class="input-group">
+			       				<input placeholder="请选择需要统计的时间区间" value="{$tapeRecordDetailTimeRange}" class="form-control" id="tapeRecordDetailTimeRange" type="text">
+			                	<span class="input-group-addon">
+				                	<i class ="fa fa-calendar"></i>
+				                </span>
+			                 </div>
+			            </div> 
+			                   			            
+			            <div class="col-sm-2">
+			            	<a id="tapeRecordDetailSearch" class="btn btn-default">搜索</a>
+			            </div>   			            
+			            
+	                </div>	 	            
+	            
+	                <table class="table table-striped table-bordered table-hover" id="simpledatatable">
+	                    <thead>
+	                        <tr>
+	                            <th colspan="4">呼入</th>
+	                            <th colspan="4">呼出</th>
+	                            <th id="th_col_4" colspan="4" rowspan="2">未接听</th>
+	                        </tr>
+	                        <tr>
+	                        	<th colspan="2">客服</th>
+	                        	<th colspan="2">销售</th>
+	                        	<th colspan="2">客服</th>
+	                        	<th colspan="2">销售</th>
+	         
+	                        </tr>
+	                        <tr>
+	                        	<th>次数</th>
+	                        	<th>时长</th>
+	                        	<th>次数</th>
+	                        	<th>时长</th>
+	                        	<th>次数</th>
+	                        	<th>时长</th>
+	                        	<th>次数</th>
+	                        	<th>时长</th>
+	                        	<th>次数</th>
+	                        	<th>回拨次数</th>
+	                        </tr>
+	                    </thead>
+	                   <tbody>
+                   			<tr>
+                   				
+                   				<td id ='service_call_in_num'>{$tapeRecordDetail.service_call_in_num}</td>	
+                   				<td id ='service_call_in_time_len'>{$tapeRecordDetail.service_call_in_time_len}</td>
+                   				<td id ='sell_call_in_num'>{$tapeRecordDetail.sell_call_in_num}</td>
+                   				<td id ='sell_call_in_time_len'>{$tapeRecordDetail.sell_call_in_time_len}</td>
+                    			<td id ='service_call_out_num'>{$tapeRecordDetail.service_call_out_num}</td>
+                   				<td id ='service_call_out_time_len'>{$tapeRecordDetail.service_call_out_time_len}</td>
+                   				<td id ='sell_call_out_num'>{$tapeRecordDetail.sell_call_out_num}</td>
+                   				<td id ='sell_call_out_time_len'>{$tapeRecordDetail.sell_call_out_time_len}</td>                  				
+                   				<td id ='service_fail_call_num'>{$tapeRecordDetail.service_fail_call_num}</td>
+                   				<td id ='service_fail_call_reply_num'>{$tapeRecordDetail.service_fail_call_reply_num}</td>
+                   				
+
+                   			</tr>
+	               	   </tbody>
+	           	</table>	           	
+	       	</div>
+		</div>
+	</div>
+</div>
+
+                                
+
+
+</block>
+
+<block name="footjs">
+	<style type="text/css">
+		th{
+			text-align: center;
+		}
+		#th_col_4{
+			height: 70px;
+			line-height: 70px;
+		}
+	
+	</style>
+
+   <!--Basic Scripts-->
+   <script src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
+   <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+   <!--Beyond Scripts-->
+   <script src="__PUBLIC__/js/beyond.min.js"></script>
+   
+    <script src="__PUBLIC__/js/datatable/jquery.dataTables.min.js"></script>   
+	<script src="__PUBLIC__/js/datetime/bootstrap-datepicker.js"></script>	
+	<script src="__PUBLIC__/js/datetime/moment.js"></script>
+	<script src="__PUBLIC__/js/datetime/daterangepicker.js"></script>	
+   <!--Page Related Scripts-->
+   
+    <script type="text/javascript">
+	   $(function(){
+
+			$("#tapeRecordDetailTimeRange").daterangepicker({
+				format:"YYYY-MM-DD",
+				separator : '__',
+				locale:{
+					applyLabel:"确定",
+					cancelLabel:"取消",
+					fromLabel:"从",
+					toLabel:"到",
+				
+				}
+			});
+			
+			
+			$("#tapeRecordDetailSearch").click(function(){
+				var tapeRecordDetailTimeRange = $("#tapeRecordDetailTimeRange").val();
+
+				
+				var data = {"tapeRecordDetailTimeRange":tapeRecordDetailTimeRange,
+							"type":"tapeRecordDetailSearch"};
+				$.ajax({
+					url:"__APP__/Home/Tape/tapeRecordDetail",
+					type:"POST",
+					data:data,
+					dataType:'json',
+					success:function(data){
+        				console.log(data);
+		   				$("#service_call_out_num").html(data.service_call_out_num);
+           				$("#service_call_in_num").html(data.service_call_in_num);
+           				$("#service_call_out_time_len").html(data.service_call_out_time_len);
+           				$("#service_call_in_time_len").html(data.service_call_in_time_len);
+           				$("#sell_call_out_num").html(data.sell_call_out_num);
+           				$("#sell_call_in_num").html(data.sell_call_in_num);
+           				$("#sell_call_out_time_len").html(data.sell_call_out_time_len);
+           				$("#sell_call_in_time_len").html(data.sell_call_in_time_len);
+           				$("#service_fail_call_num").html(data.service_fail_call_num);
+           				$("#service_fail_call_reply_num").html(data.service_fail_call_reply_num);
+
+						
+					}
+				});
+			});
+			
+		});	
+	   
+	</script>
+
+</block>

@@ -1,0 +1,15 @@
+[ 2015-05-28T10:31:44+08:00 ] 127.0.0.1 /fundcrm/index.php/Hefm/Order/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM t_order LIMIT 1   [ RunTime:0.0630s ]
+SQL: select o.id,o.ctime,o.mtime,o.custname,o.amount,o.orderlevel,o.status,u.nickname
+            from t_order o left join t_user u on o.user_id=o.id
+            limit 20 offset 0 [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+ERR: 模板不存在:./Application/Hefm/View/layout.html
+

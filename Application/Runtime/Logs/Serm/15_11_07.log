@@ -1,0 +1,6 @@
+[2015-11-07 09:42:30] 127.0.0.1 /fundcrm/index.php/Serm/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
