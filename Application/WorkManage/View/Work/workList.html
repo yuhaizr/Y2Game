@@ -258,7 +258,7 @@
    </div>
   	<!--  新增工作日志  -->
     <!--  新增工作日志详情  -->
-    <div id="addWorkDetailModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div id="addWorkDetailModal" style="z-index: 1100;" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
        <div class="modal-dialog modal-md">
            <div class="modal-content">
 
@@ -319,7 +319,7 @@
   	<!--  新增工作日志详情  -->
   	
     <!--  新增工作日志详情  中的编辑 -->
-    <div id="addWorkDetailDetailModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div id="addWorkDetailDetailModal" style="z-index: 1100;" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
        <div class="modal-dialog modal-md">
            <div class="modal-content">
 
@@ -424,11 +424,36 @@
 									  <textarea id='work_synopsis'></textarea>
 			                	</div>	
 	        				</div>
-	        			<button id="editwork_btn" data-bb-handler="confirm" type="button" class="btn btn-primary">保存</button>
+	        			
+	 
+	        				<div class='row'>
+	        					<div class='col-sm-2 col-sm-offset-4'>
+		        					<button id="editwork_btn" data-bb-handler="confirm" type="button" class="btn btn-primary">保存</button>
+		        				</div>
+		        				<div class='col-sm-4'>
+		        					<button id='show_addworkdetailmodal' type="button" class="btn btn-primary ">新增工作内容</button>
+		        				</div>
+	        				</div>
                		</div>
                	</div>
       
-                  
+	        		<table class="table table-striped table-hover table-bordered" id="editabledatatable">
+	                    <thead>
+	                        <tr role="row">
+	     
+	                            <th>序号 </th>
+	                            <th>工作内容 </th>
+	                            <th>工作时长</th>
+	                            <th>操作</th>
+
+	
+	                        </tr>
+	                    </thead>
+	
+	                    <tbody id="workdetaillistTable">
+	                           
+	                    </tbody>
+                	</table>
                	<div class="row" id="reply_record_div">
 					<div class="col-sm-2">
 						
@@ -442,7 +467,9 @@
            </div>
        </div>
    </div>
-   <!--编辑工作日志  -->
+    <!--编辑工作日志  -->
+    
+    
   
     <div id="editWorkDetailModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
        <div class="modal-dialog modal-sm">
@@ -623,7 +650,8 @@ $(".showEditWork").click(function(){
 		return false;
 	}
 	
-	
+	var work_id =  $(this).attr('work-id');
+	$('#show_addworkdetailmodal').attr('work_id',work_id);
 	var data = {'work_id':work_id,'type':'workDetail'};
 	$.ajax({
 		url:"__APP__/WorkManage/Work/workDetail",
@@ -632,11 +660,33 @@ $(".showEditWork").click(function(){
 		dataType:'json',
 		success:function(data){
 			data = data.data;
+			console.log(data);
 			$('#work_ctime').html(data.ctime);
 			$('#work_worktype').html(data.worktype_name);
 			$('#work_synopsis').html(data.synopsis);
 			$('#editWorkModal #editwork_btn').attr('work_id',work_id);
 			$('#editWorkModal').modal('show');
+			
+			var workDetailList = data.workDetailList;
+			var html = "";
+			if(workDetailList){
+				$.each(workDetailList,function(k,v){
+					var num = k + 1;
+					html += " <tr id ='work_detail_tr_"+v.id+"'> ";
+					html += " <td>"+num+"</td> ";
+					html += " <td>"+v.content+"</td> ";
+					html += " <td>"+v.userdtm+"</td> ";
+					html += " <td>";
+					html += "<a href='#' num='"+num+"'  work-detail-id='"+v.id+"' workdetail_content='"+v.content+"' workdetail_userDtm='"+v.userdtm+"' class='btn btn-info btn-xs edit showEditWorkdetail'><i class='fa fa-edit'></i>编辑</a> ";
+					html += "<a href='#'  work-detail-id='"+v.id+"' class='btn btn-danger btn-xs delete delWorkdetail'><i class='fa fa-trash-o'></i>删除</a> ";
+					html += " </td>";
+					html += " </tr> ";
+					
+				});
+			}
+			
+			
+			$('#editWorkModal #workdetaillistTable').html(html);
 		},
 		error:function(){
 			alert('服务器忙,请稍后再试！');
@@ -677,6 +727,7 @@ $('#savework').click(function(){
 			if('0' == data.status){
 				var work_id = data.data;
 				$('#savework_edit').attr('work_id',work_id);
+				$('#add_workdetail').attr('work_id',work_id);
 				$('#show_addworkmodal').attr('work_id',work_id);
 				$('#savework').hide();
 				$('#savework_edit').show();
@@ -730,7 +781,8 @@ $('#show_addworkmodal').click(function(){
 $('#add_workdetail').click(function(){
 	var workdetail_content = $('#workdetail_content').val();
 	var workdetail_userDtm = $('#workdetail_userDtm').val();
-	var work_id = $('#savework_edit').attr('work_id');
+	var work_id = $('#add_workdetail').attr('work-id');
+	var data_type = $('#add_workdetail').attr('data-type');
 	
 	if(!workdetail_content || !workdetail_userDtm ){
 		alert('参数缺失');
@@ -759,7 +811,12 @@ $('#add_workdetail').click(function(){
 				html += " </td>";
 				html += " </tr> ";
 				window.num ++;
-				$('#workdetaillistTable').append(html);
+				if('edit'== data_type){
+					$('#editWorkModal #workdetaillistTable').append(html);
+				}else{
+					$('#workdetaillistTable').append(html);
+				}
+				
 				$('#addWorkDetailModal').modal('hide');
 			}
 		},
@@ -906,10 +963,17 @@ $('#editwork_btn').click(function(){
 		
 	}); 	
 	
-	
 });
 
-$('#addWorkModal').on('hide.bs.modal', function () {
+$('#show_addworkdetailmodal').click(function(){
+	$('#addWorkDetailModal').modal(true);
+	var work_id =  $(this).attr('work_id');
+	$('#add_workdetail').attr('work-id',work_id);
+	$('#add_workdetail').attr('data-type','edit');
+
+});
+
+$('#addWorkModal,#editWorkModal').on('hide.bs.modal', function () {
     location.reload();
 });
 </script>
