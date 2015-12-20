@@ -34,6 +34,10 @@ return array(
 		                'title' => '日志列表',
 		                'link' => '/Home/Log/logList?type=menu'
 		        ),
+		        array(
+		                'title' => '权重列表',
+		                'link' => '/Home/Dimension/dimensionList?type=menu'
+		        ),
 			)
 	),		
 
