@@ -69,6 +69,9 @@ class WorkModel extends BaseModel
     public function fix_workDetailData($data){
         $workDetailList = array();
         $work_id = $data['id'];
+        $workType = $data['worktype'];
+        $workTypeList = C('workTypeList');
+        $worktype_name = $workTypeList[$workType];
         
         $where['workId'] = $work_id;
         $where['isDelete'] = '0';
@@ -76,7 +79,7 @@ class WorkModel extends BaseModel
         
         $workDetailList = $workdetail->where($where)->select();
         $data['workDetailList'] = $workDetailList;
-        
+        $data['worktype_name'] = $worktype_name;
         return $data;
     }
     

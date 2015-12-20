@@ -227,6 +227,7 @@
 	                            <th>序号 </th>
 	                            <th>工作内容 </th>
 	                            <th>工作时长</th>
+	                            <th>操作</th>
 
 	
 	                        </tr>
@@ -266,7 +267,7 @@
                    <h4 class="modal-title" id="mySmallModalLabel">新增工作内容</h4>
                </div>
                <div class="modal-body"> 
-                  <!--未开户成功用户接单记录表开始  -->
+    
               	   <div class="widget">
 			       <div class="widget-header ">
 			           <span class="widget-caption"></span>
@@ -300,7 +301,6 @@
                		</div>
                	</div>
 
-               	<!--未开户成功用户接单记录表结束  -->
                   
                	<div class="row" id="reply_record_div">
 					<div class="col-sm-2">
@@ -317,7 +317,69 @@
        </div>
    </div>
   	<!--  新增工作日志详情  -->
+  	
+    <!--  新增工作日志详情  中的编辑 -->
+    <div id="addWorkDetailDetailModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+       <div class="modal-dialog modal-md">
+           <div class="modal-content">
+
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                   <h4 class="modal-title" id="mySmallModalLabel">编辑工作内容</h4>
+               </div>
+               <div class="modal-body"> 
+    
+              	   <div class="widget">
+			       <div class="widget-header ">
+			           <span class="widget-caption"></span>
+		               <div class="widget-buttons">
+		                    <a href="#" data-toggle="maximize">
+		                        <i class="fa fa-expand"></i>
+		                    </a>
+		                    <a href="#" data-toggle="collapse">
+		                        <i class="fa fa-minus"></i>
+		                    </a>
+		                    <a href="#" data-toggle="dispose">
+		                        <i class="fa fa-times"></i>
+		                    </a>
+		                </div>
+			       </div>
+		           <div class="widget-body">
+
+	        				<div class='row'>
+	        					<div class='col-sm-3'>工作内容</div>
+	        					<div class="search-box col-sm-4" >
+										<textarea id='workdetail_content'></textarea>
+				                 </div>   
+	        				</div>
+	        				<div class='row'>
+	        					<div class='col-sm-3'>工作时长</div>
+	        					<div class="search-box col-sm-4" >
+									<input type="text" id='workdetail_userDtm'>
+				                 </div>   
+	        				</div>
+	        	
+               		</div>
+               	</div>
+
+                  
+               	<div class="row" id="reply_record_div">
+					<div class="col-sm-2">
+						<button id='save_workdetail' type="button" class="btn btn-primary">保存</button>
+				
+						<span></span>
+					</div>
+				</div>
+               </div>
+			<div class="modal-footer">
+
+			</div>			                
+           </div>
+       </div>
+   </div>   
+    <!--  新增工作日志详情  中的编辑 -->
   
+    <!--编辑工作日志  -->
     <div id="editWorkModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
        <div class="modal-dialog modal-lg">
            <div class="modal-content">
@@ -327,7 +389,7 @@
                    <h4 class="modal-title" id="mySmallModalLabel">工作日志修改</h4>
                </div>
                <div class="modal-body"> 
-                  <!--未开户成功用户接单记录表开始  -->
+             
               	   <div class="widget">
 			       <div class="widget-header ">
 			           <span class="widget-caption">未开户成功用户接单记录表</span>
@@ -357,19 +419,19 @@
 			                	</div>	
 	        				</div>
 	        				<div class='row'>
-	        					<div class='col-sm-3'>日志类别</div>
+	        					<div class='col-sm-3'>摘要</div>
 	        					<div class="search-box col-sm-4" >
 									  <textarea id='work_synopsis'></textarea>
 			                	</div>	
 	        				</div>
-	        			
+	        			<button id="editwork_btn" data-bb-handler="confirm" type="button" class="btn btn-primary">保存</button>
                		</div>
                	</div>
-               	<!--未开户成功用户接单记录表结束  -->
+      
                   
                	<div class="row" id="reply_record_div">
 					<div class="col-sm-2">
-						<button id="add_reply_record_btn" data-bb-handler="confirm" type="button" class="btn btn-primary">确定</button>
+						
 						<span></span>
 					</div>
 				</div>
@@ -380,6 +442,8 @@
            </div>
        </div>
    </div>
+   <!--编辑工作日志  -->
+  
     <div id="editWorkDetailModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
        <div class="modal-dialog modal-sm">
            <div class="modal-content">
@@ -571,6 +635,7 @@ $(".showEditWork").click(function(){
 			$('#work_ctime').html(data.ctime);
 			$('#work_worktype').html(data.worktype_name);
 			$('#work_synopsis').html(data.synopsis);
+			$('#editWorkModal #editwork_btn').attr('work_id',work_id);
 			$('#editWorkModal').modal('show');
 		},
 		error:function(){
@@ -650,6 +715,7 @@ $('#savework_edit').click(function(){
 	
 });
 
+
 //显示modal  工作日志详情
 $('#show_addworkmodal').click(function(){
 	var work_id = $('#savework_edit').attr('work_id');
@@ -678,16 +744,24 @@ $('#add_workdetail').click(function(){
 		data:data,
 		dataType:'json',
 		success:function(data){
+			console.log(data);
 			alert(data.message);
-			var html = "";
-			html += " <tr> ";
-			html += " <td>"+window.num+"</td> ";
-			html += " <td>"+workdetail_content+"</td> ";
-			html += " <td>"+workdetail_userDtm+"</td> ";
-			html += " </tr> ";
-			window.num ++;
-			$('#workdetaillistTable').append(html);
-			$('#addWorkDetailModal').modal('hide');
+			if(data.status == '0'){
+
+				var html = "";
+				html += " <tr id ='work_detail_tr_"+data.data+"'> ";
+				html += " <td>"+window.num+"</td> ";
+				html += " <td>"+workdetail_content+"</td> ";
+				html += " <td>"+workdetail_userDtm+"</td> ";
+				html += " <td>";
+				html += "<a href='#' num='"+window.num+"'  work-detail-id='"+data.data+"' workdetail_content='"+workdetail_content+"' workdetail_userDtm='"+workdetail_userDtm+"' class='btn btn-info btn-xs edit showEditWorkdetail'><i class='fa fa-edit'></i>编辑</a> ";
+				html += "<a href='#'  work-detail-id='"+data.data+"' class='btn btn-danger btn-xs delete delWorkdetail'><i class='fa fa-trash-o'></i>删除</a> ";
+				html += " </td>";
+				html += " </tr> ";
+				window.num ++;
+				$('#workdetaillistTable').append(html);
+				$('#addWorkDetailModal').modal('hide');
+			}
 		},
 		error:function(){
 			alert('服务器忙,请稍后再试！');
@@ -699,7 +773,145 @@ $('#add_workdetail').click(function(){
 	
 });
 
+//添加工作日志的显示编辑的功能
+$('body').on('click','.showEditWorkdetail',function(){
+	var work_detail_id = $(this).attr('work-detail-id');
+	var num = $(this).attr('num');
+	var workdetail_userDtm = $(this).attr('workdetail_userDtm');
+	var workdetail_content = $(this).attr('workdetail_content');
+	var a = $(this).parent().parent();
+	
+	if(!work_detail_id){
+		alert('参数缺失');
+		return false;
+	}
+	var data = {'work_detail_id':work_detail_id,'type':'get_workdetail'};
+	$.ajax({
+		url:"__APP__/WorkManage/Work/get_workdetail",
+		type:"GET",
+		data:data,
+		dataType:'json',
+		success:function(data){
+			console.log(data);
+			alert(data.message);
+			
+			if('0' == data.status){
+				var data = data.data;
+				$('#addWorkDetailDetailModal #workdetail_userDtm').val(data.userdtm);
+				$('#addWorkDetailDetailModal #workdetail_content').val(data.content);
+				$('#addWorkDetailDetailModal #save_workdetail').attr('work_detail_id',data.id);
+				$('#addWorkDetailDetailModal #save_workdetail').attr('num',num);
+	
+				
+			}
+	
+		},
+		error:function(){
+			alert('服务器忙,请稍后再试！');
+		}
+		
+	}); 
+	
 
+	$('#addWorkDetailDetailModal').modal(true);
+	
+});
+//添加工作日志中保存编辑的功能
+$('#addWorkDetailDetailModal').on('click','#save_workdetail',function(){
+	var work_detail_id = $(this).attr('work_detail_id');
+	var num = $(this).attr('num');
+	var workdetail_userDtm = $('#addWorkDetailDetailModal #workdetail_userDtm').val();
+	var workdetail_content = $('#addWorkDetailDetailModal #workdetail_content').val();
+
+	if(!work_detail_id||!workdetail_userDtm||!workdetail_content){
+		alert('参数缺失');
+		return false;
+	}
+	var data = {'work_detail_id':work_detail_id,'workdetail_userDtm':workdetail_userDtm,'workdetail_content':workdetail_content,'type':'save_workdetail'};
+	$.ajax({
+		url:"__APP__/WorkManage/Work/save_workdetail",
+		type:"GET",
+		data:data,
+		dataType:'json',
+		
+		success:function(data){
+			alert(data.message);
+			var html = "";
+			html += " <td>"+num+"</td> ";
+			html += " <td>"+workdetail_content+"</td> ";
+			html += " <td>"+workdetail_userDtm+"</td> ";
+			html += " <td>";
+			html += "<a href='#'  num='"+num+"' work-detail-id='"+work_detail_id+"' workdetail_content='"+workdetail_content+"' workdetail_userDtm='"+workdetail_userDtm+"' class='btn btn-info btn-xs edit showEditWorkdetail'><i class='fa fa-edit'></i>编辑</a> ";
+			html += "<a href='#'  work-detail-id='"+data.data+"' class='btn btn-danger btn-xs delete delWorkdetail'><i class='fa fa-trash-o'></i>删除</a> ";
+			html += " </td>";
+			var dom = $('#work_detail_tr_'+work_detail_id);			
+			dom.html(html);
+		},
+		error:function(){
+			alert('服务器忙,请稍后再试！');
+		}
+		
+	}); 
+});
+
+//删除工作内容
+$('body').on('click','.delWorkdetail',function(){
+	var work_detail_id = $(this).attr('work-detail-id');
+	var a = $(this).parent().parent();
+
+	
+	if(!work_detail_id){
+		alert('参数缺失');
+		return false;
+	}
+	var data = {'work_detail_id':work_detail_id,'type':'delWorkdetail'};
+	$.ajax({
+		url:"__APP__/WorkManage/Work/delWorkdetail",
+		type:"GET",
+		data:data,
+		dataType:'json',
+		success:function(data){
+			alert(data.message);
+			a.remove();
+		},
+		error:function(){
+			alert('服务器忙,请稍后再试！');
+		}
+		
+	}); 	
+	
+	
+})
+//保存修改工作日志
+$('#editwork_btn').click(function(){
+	var synopsis = $('#editWorkModal #work_synopsis').val();
+	var work_id = $(this).attr('work_id');
+
+	if(!work_id || !synopsis){
+		return false;
+	}
+	var data = {'work_id':work_id,'synopsis':synopsis,'type':'savework'};
+	$.ajax({
+		url:"__APP__/WorkManage/Work/savework",
+		type:"GET",
+		data:data,
+		dataType:'json',
+		success:function(data){
+			alert(data.message);
+		
+		},
+		error:function(){
+			alert('服务器忙,请稍后再试！');
+		}
+		
+	}); 	
+	
+	
+});
+
+$('#addWorkModal').on('hide.bs.modal', function () {
+    location.reload();
+});
 </script>
 
 
