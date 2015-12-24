@@ -41,8 +41,12 @@ class WorkController extends BaseController
         $this->assign('synopsis', $synopsis);
         $this->assign('searchTime', $timerange);
         $this->assign('show', $timerange);
+        if('my' == $show){
+            $this->display();
+        }elseif ('member' == $show){
+            $this->display('workListMember');
+        }
         
-        $this->display();
     }
 
     public function delWork ()
@@ -232,6 +236,82 @@ class WorkController extends BaseController
             } else {
                 echoJson('1', '获取失败');
             }
+        }
+    }
+    
+    //获取权重列表
+    public function getDimensionList(){
+        $type = I('type');
+        
+        $dimension = M('Dimension');
+        $where['is_delete'] = '0';
+        $dimensionList = $dimension->where($where)->select();
+        if('getDimensionList' == $type){
+           
+            echoJson('0', '成功获取',$dimensionList);
+        }else {
+            echoJson('1', '获取失败');
+        }
+        
+    }
+    //设置分数
+    public function set_score(){
+        $work_id = I('work_id');
+        $dimension_data = I('dimension_data');
+        $type = I('dimension_data');
+        $data = [];
+        $userId = $_SESSION['authId'];
+        $all_score = 0;
+        
+        $workModel = new WorkModel();
+        $workModel->startTrans();
+        foreach ($dimension_data as $k => $v){
+            $dimensionid_score =  split('__', $v); 
+            $dimensionid = $dimensionid_score[0];
+            $score = $dimensionid_score[1];
+            
+            $work_dimension_data['work_id'] = $work_id;
+            $work_dimension_data['dimension_id'] = $dimensionid;
+            $work_dimension_data['score'] = $score;
+            $work_dimension_data['user_id'] = $userId;
+            
+            $work_dimension = M('Work_dimension');
+            $res = $work_dimension->add($work_dimension_data);
+            if(!$res){
+                $workModel->rollback();
+                echoJson('1', '添加打分详情失败');
+            }
+            
+            $percent = $this->get_percent($dimensionid);
+            $all_score += $percent * $score / 100; 
+            if(false === $percent){
+                $workModel->rollback();
+                echoJson('1', '获取权重失败');
+            }  
+        }
+        $all_score = sprintf('%f.2',$all_score);
+        $work_data['score'] = $all_score;
+        $work_data['is_have_score'] = '1';
+        
+        $work = M('Work');
+        $res = $work->where(array('id'=>$work_id))->save($work_data);
+        if (!$res){
+            $workModel->rollback();
+            echoJson('1', '保存分数失败');
+        }
+ 
+        $workModel->commit();
+        echoJson('0', '打分成功');
+    }
+    //通过dimension_id 获取权重
+    private function get_percent($dimension_id){
+        $dimension = M('Dimension');
+        $data['id'] = $dimension_id;
+        $res = $dimension->where($data)->select();
+        if($res){
+            return $res[0]['percent'];
+        }else {
+            return false;
         }
     }
     
