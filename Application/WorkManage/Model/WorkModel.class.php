@@ -115,6 +115,23 @@ class WorkModel extends BaseModel
 
     private function fixWorkList ($list)
     {
+        
+        if (is_array($list)){
+            
+            foreach ($list as $k => &$v){
+                $is_have_score   = $v['is_have_score'];
+                if ('0' === $is_have_score){
+                    $v['score'] = '未打分';
+                }else {
+                    if((!isset($v['score']))||!$v['score']){
+                        $v['score'] = '0';
+                    }
+                }
+            }
+            
+        }
+            
+        
         return $list;
     }
     

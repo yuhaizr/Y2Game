@@ -3,6 +3,7 @@ namespace Home\Controller;
 
 use Think\Controller;
 use Home\Model\UserModel;
+use Org\Util\Rbac;
 
 class UserController extends BaseController
 {
@@ -140,6 +141,49 @@ class UserController extends BaseController
         }
     }
     
-    
+    public function modPass(){
+        
+        $type = I('type');
+        $oldpass = I('oldpass');
+        $newpass = I('newpass');
+        
+        if('menu' == $type){
+            $this->display();
+            exit();
+        }
+        
+        
+        // 生成认证条件
+        $map = array();
+        // 支持使用绑定帐号登录
+        $ses = $_SESSION;
+        $map['account'] = $_SESSION['login_count'];
+        $map["status"] = array(
+                'gt',
+                0
+        );
+        $authInfo = Rbac::authenticate($map);
+        // 使用用户名、密码和状态的方式进行认证
+        if (false === $authInfo) {
+            $this->error('帐号不存在或已禁用！');
+        } else {
+            if ($authInfo['password'] != md5($oldpass)) {
+                echoJson('1', '原密码输入错误');
+            }else {
+                $where['id'] = $_SESSION['authId'];
+                $passdata['password'] = md5($newpass);
+                $user = M('User');
+                $res = $user->where($where)->save($passdata);
+                if($res){
+                    echoJson('0', '密码修改成功') ;
+                }else {
+                    echoJson('1', ' 服务器忙');
+                }
+            }
+      
+        }
+        
+        
+    }
     
 }

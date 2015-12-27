@@ -114,7 +114,11 @@
                             <td>{$vo.synopsis}</td>
                             <td>{$vo.score}</td>
                             <td>
-                            	<a href="#"  work-id='{$vo.id}' class="btn btn-info btn-xs edit show_set_score"><i class="fa fa-edit"></i>打分</a>
+                            	<if condition="${'0' eq $vo.is_have_score}">
+                            		<a href="#"  work-id='{$vo.id}' class="btn btn-info btn-xs edit show_set_score"><i class="fa fa-edit"></i>打分</a>
+                            		<else/>
+                            		已打分
+                            	</if>
                                <!--  <a href="#"  work-id='{$vo.id}' class="btn btn-info btn-xs edit showEditWork"><i class="fa fa-edit"></i>编辑</a>
       					        <a href="#"  work-id='{$vo.id}' class="btn btn-danger btn-xs delete delWork"><i class="fa fa-trash-o"></i>删除</a>   -->     	
                             </td>

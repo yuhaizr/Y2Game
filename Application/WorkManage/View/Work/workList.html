@@ -185,6 +185,30 @@
 				                    </div> 
 				                 </div>   
 	        				</div>
+	        				
+	        				<div class='row'>
+	        					<div class='col-sm-3'>日期</div>
+	        					<div class="search-box col-sm-4" >
+									<div class="form-group">
+				                        <div class="controls">
+<!-- 				                            <div class="input-group">
+				                                <span class="input-group-addon">
+				                                    <i class="fa fa-calendar"></i>
+				                                </span>
+				                                
+				                            	<input class="form-control date-picker" id="workdate" type="text" data-date-format="yyyy-mm-dd" placeholder="请选择时间区间">
+				                            </div> -->
+				                             <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </span>				                             
+                                                <input class="form-control date-picker" id="workdate" type="text" data-date-format="yyyy-mm-dd" placeholder="请选择时间区间">
+
+                                            </div>
+				                        </div>
+				                    </div> 
+				                 </div>   
+	        				</div>
 	        				<div class='row'>
 	        					<div class='col-sm-3'>摘要</div>
 	        					<div class="search-box col-sm-4" >
@@ -543,23 +567,32 @@
 <!--Basic Scripts-->
 <script src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
 <script src="__PUBLIC__/js/bootstrap.min.js"></script>
-<script src="__PUBLIC__/js/datetime/bootstrap-datepicker.js"></script>
-<script src="__PUBLIC__/js/datetime/bootstrap-timepicker.js"></script>
-<script src="__PUBLIC__/js/datetime/bootstrap-datetimepicker.js"></script>
+
+
 
 <!--Beyond Scripts-->
 <script src="__PUBLIC__/js/beyond.min.js"></script>
 <script src="__PUBLIC__/js/datetime/moment.js"></script>
 <script src="__PUBLIC__/js/datetime/daterangepicker.js"></script>
 <script src="__PUBLIC__/js/select2/select2.js"></script>
+
+<script src="__PUBLIC__/js/datetime/bootstrap-datepicker.js"></script>
+<script src="__PUBLIC__/js/datetime/bootstrap-timepicker.js"></script>
+<script src="__PUBLIC__/js/datetime/bootstrap-datetimepicker.js"></script>
+
+<style type="text/css">
+	.datepicker {
+		z-index: 999999;
+	}
+
+</style>
 <script type="text/javascript">
 
 $(function(){
 
-	$(".form_datetime").datetimepicker({
-	//	format:'yyyy-mm-dd-hh-ii-ss'
-	});
 
+	$('#workdate').datepicker();
+	$('.date-picker').datepicker();
 	//$("#endTime").datetimepicker();	
 	$("#searchTime").daterangepicker({
 		format:"YYYY-MM-DD",

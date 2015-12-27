@@ -35,8 +35,16 @@ return array(
 		                'link' => '/Home/Log/logList?type=menu'
 		        ),
 		        array(
-		                'title' => '权重列表',
+		                'title' => '部门列表',
+		                'link' => '/Home/Dept/deptList?type=menu'
+		        ),
+		        array(
+		                'title' => '纬度设置',
 		                'link' => '/Home/Dimension/dimensionList?type=menu'
+		        ),
+		        array(
+		                'title' => '修改密码',
+		                'link' => '/Home/User/modPass?type=menu'
 		        ),
 			)
 	),		

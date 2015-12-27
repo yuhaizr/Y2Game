@@ -5,7 +5,7 @@
         <div class="col-xs-12 col-md-12">
             <div class="widget">
                 <div class="widget-header ">
-                    <span class="widget-caption">权重列表</span>
+                    <span class="widget-caption">部门列表</span>
                     <div class="widget-buttons">
                         <a href="#" data-toggle="maximize">
                             <i class="fa fa-expand"></i>
@@ -20,10 +20,10 @@
                 </div>
                 <div class="widget-body">
                     <div class="table-toolbar">
-<!--                     	 <div class="search-box col-sm-3" >
+      <!--               	 <div class="search-box col-sm-3" >
 			                		<div>
 			                			<span class="input-icon">
-			                				<input type="text" value="{$name}" id='name' class="form-control"  placeholder="请输入权重名称">
+			                				<input type="text" value="{$dName}" id='dName' class="form-control"  placeholder="请输入部门名称">
 			                				<i class="glyphicon glyphicon-search circular blue"></i>
 			                			</span>
 			                		</div>
@@ -34,7 +34,7 @@
 						  </div> -->
                         
                           <div class="col-sm-3">
-                            <a id="editabledatatable_new" href="javascript:void(0);" class="btn btn-default" onclick="jumpuseradd()">添加权重</a>
+                            <a id="editabledatatable_new" href="javascript:void(0);" class="btn btn-default" onclick="jumpuseradd()">添加部门</a>
                           </div>
                         
                         
@@ -46,20 +46,19 @@
                         <thead>
                             <tr role="row">
 						        <th>编号</th>
-						        <th>权重名称</th>
+						        <th>部门名称</th>
 						        <!-- <th class="numeric">上级部门</th> -->
-						        <th class="numeric">占比</th>
-						        <th class="numeric">备注</th>
+						        <th class="numeric">备注说明</th>
 						        <th class="numeric">操作 </th>
         					</tr>
       </thead>
        <tbody id='userlistTable'>
-       <foreach name="dimensioninfodata" item="value" key='key'>
+       <foreach name="deptinfolist" item="value" key='key'>
       	<tr>
       		
       		<td>{$key + 1}</td>
-      		<td>{$value.name}</td>
-      		 <td>{$value.percent}</td> 
+      		<td>{$value.dname}</td>
+      		<!-- <td>{$value.pid}</td> -->
       		<td>{$value.remark}</td>
      
       		
@@ -92,25 +91,25 @@
     </div>
 <script>
 function jumpuseradd(){
-	window.location.href=__URL+"/dimensionadd?type=showadd";
+	window.location.href=__URL+"/deptadd?type=show";
 }
 function jumpuseredit(id){
-	window.location.href=__URL+"/dimensionedit?id="+id+"&type=showedit";
+	window.location.href=__URL+"/deptedit?id="+id;
 }
 function jumpuserdelete(id){
 	if(confirm('确定删除吗？')){
-		window.location.href=__URL+"/dimensiondelete?id="+id;
+		window.location.href=__URL+"/deptdelete?id="+id;
 	}
 }
 
 $(function(){
 	$('#searchDept').click(function(){
-		var name = $("#name").val();
+		var dName = $("#dName").val();
 		//var role_id = $("#role_id").val();
-		data = {"name":name,"type":"searchDimensionList"};
+		data = {"dName":dName,"type":"searchDeptList"};
 		$.ajax({
 			type: "POST",
-			url: '__APP__/Home/Dimension/dimensionList',
+			url: '__APP__/Home/Dept/index',
 			data: data,
 			dataType: 'json',
 			success: function(dt) {	
